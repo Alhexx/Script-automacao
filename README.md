@@ -12,7 +12,7 @@ Em seguida, criar o ambiente virtual para instalar as dependências do python pa
     Ou para Windows
 
     $ virtualenv venv
-    $ venv/bin/activate
+    $ venv/Scripts/activate
     (venv) $ pip install -r requirements.txt
 
 ## Rodar script
