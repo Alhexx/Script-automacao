@@ -1,3 +1,7 @@
+## Sobre o Script
+
+Script simples de automação para conseguir certificados no site do tjrs. Nesse exemplo os dados que são inseridos são fixos, mas com um simples refatoramento conseguese que esses valores sejam colocados pelo usuario.
+
 ## Criar virtualenv e instalar dependências
 
 Caso não tenha o virtualenv instalado, instalar com
@@ -11,7 +15,7 @@ Em seguida, criar o ambiente virtual para instalar as dependências do python pa
 
     Ou para Windows
 
-    $ virtualenv venv
+    $ python -m venv venv
     $ venv/Scripts/activate
     (venv) $ pip install -r requirements.txt
 

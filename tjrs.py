@@ -5,13 +5,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.service import Service
-import time
 
 service = Service('./chromedriver.exe')
+link = 'https://www.tjrs.jus.br/novo/processos-e-servicos/servicos-processuais/emissao-de-antecedentes-e-certidoes/'
 
 def civil(pessoa):
     driver = webdriver.Chrome(service=service)
-    driver.get('https://www.tjrs.jus.br/novo/processos-e-servicos/servicos-processuais/emissao-de-antecedentes-e-certidoes/')
+    driver.get(link)
 
     driver.switch_to.frame(0)
 
@@ -46,7 +46,7 @@ def civil(pessoa):
 
 def criminal() :
     driver = webdriver.Chrome(service=service)
-    driver.get('https://www.tjrs.jus.br/novo/processos-e-servicos/servicos-processuais/emissao-de-antecedentes-e-certidoes/')
+    driver.get(link)
 
     driver.switch_to.frame(0)
 
