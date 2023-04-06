@@ -8,7 +8,7 @@ from captchaSolver import solveCaptcha
 import time
 import requests
 
-service = Service('./chromedriver.exe')
+service = Service('../chromedriver.exe')
 
 captchaAPIkey = "Sua_API_key"
 
