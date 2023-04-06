@@ -130,7 +130,7 @@ def fillFormSimples(driver):
     submit_button.click()
 
 if __name__ == "__main__":
-    # script bem simples mas funcional
+    # script bem simples, com preenchimento de form com dados fixos... mas facilmente escalonavel. 
     tipoCertificado = input('escolha o certificado: negativa cível de 1° grau(0) ou criminal negativa(1)' )
     if tipoCertificado == '1' :
         criminal()
