@@ -21,8 +21,14 @@ Em seguida, criar o ambiente virtual para instalar as dependências do python pa
 
 ## Rodar script
 
-    $ python3 tjrs.py
+    Entre na na pasta src
+    
+    $ cd .\src\
+    
+    e rode o arquivo de preferencia
+    
+    $ python3 {arquivo_x}.py
 
     Ou para Windows
 
-    $ py tjrs.py
+    $ py {arquivo_x}.py
