@@ -1,6 +1,6 @@
 ## Sobre o Script
 
-Script simples de automação para conseguir certificados. Nesse exemplo os dados que são inseridos são fixos, mas com um simples refatoramento conseguese que esses valores sejam colocados pelo usuario.
+Script simples de automação para conseguir certificados. Nesse exemplo, os dados que são inseridos são fixos, mas com um simples refatoramento consegue-se que esses valores sejam colocados pelo usuario.
 
 ## Criar virtualenv e instalar dependências
 
