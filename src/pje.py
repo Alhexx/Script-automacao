@@ -10,7 +10,7 @@ import requests
 
 service = Service('./chromedriver.exe')
 
-captchaAPIkey = 'fe2c5765edde2868be261a83c635a416'
+captchaAPIkey = "Sua_API_key"
 
 driver = webdriver.Chrome(service=service)
 driver.get('https://pje.trt4.jus.br/certidoes/trabalhista/emissao')
